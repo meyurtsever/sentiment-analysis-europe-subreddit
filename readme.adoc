@@ -8,6 +8,8 @@
 
 * Crawled from r/europe subreddit using https://github.com/pushshift/api[Pushshift Reddit API, role=external,window=_blank].
 
+** Take a look at data crawling steps https://github.com/meyurtsever/sentiment-analysis-europe-subreddit/blob/master/reddit_data_crawl.ipynb[from here (reddit_data_crawl.ipynb),role=external,window=_blank]
+
 * Contains a total of 71820 comments between December 2017 - December 2020.
 
 * All of the comments contain the word 'Turkey' (case insensitive).
@@ -21,6 +23,8 @@
 * Hyperlinks, emojis, special characters, and excess new lines were removed using regular expressions.
 
 * Word cloud were created for the dataset.
+
+* Take a look at data pre-processing steps https://github.com/meyurtsever/sentiment-analysis-europe-subreddit/blob/master/data_preprocessing.ipynb[data_preprocessing.ipynb, role=external,window=_blank].
 
 image::images/word_cloud.png[]
 
