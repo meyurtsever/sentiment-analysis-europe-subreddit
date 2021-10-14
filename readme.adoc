@@ -6,7 +6,7 @@
 
 == The dataset
 
-* Crawled from r/europe subreddit.
+* Crawled from r/europe subreddit using https://github.com/pushshift/api[Pushshift Reddit API, role=external,window=_blank].
 
 * Contains a total of 71820 comments between December 2017 - December 2020.
 
